@@ -11,7 +11,10 @@ A simple web application which allows users to
 Dependencies
 ---
 
-1. express
-2. jsonwebtoken
-3. bcrypt
-4. errors
+1. express - the node web framework
+2. jsonwebtoken - to generate and validate json web tokens
+3. bcrypt - to hash and verify password
+4. errors - Error utility functions
+5. body-parser - Express middleware to parse json request body
+6. lodash - utility functions
+7. uuid - to generate unique uuid's
